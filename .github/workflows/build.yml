@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: '请填写发布Releases的版本号（留空不发布）'
+        description: '24.10.3'
         required: false
         default: ''
       text:
-        description: '请填写发布的说明'
+        description: 'arm64-a53,generic,x86-64,24.10.3'
         required: false
         default: ''
 concurrency:
